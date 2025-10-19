@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transport version="1.0">
+  <means id="bus-1" category="public" usage="daily">
+    <name>Autobus</name>
+    <operator>MPK</operator>
+    <routes>
+      <route>52</route>
+      <route>172</route>
+      <route>608</route>
+    </routes>
+    <ticket type="miesięczny" currency="PLN">120</ticket>
+    <average_trip unit="minutes">35</average_trip>
+    <environment co2_g_km="80">Niższa emisja niż auto w przeliczeniu na pasażera</environment>
+  </means>
+  <means id="nissan-juke" category="car" usage="weekly">
+    <brand>Nissan</brand>
+    <model>Juke</model>
+    <fuel type="benzyna" consumption_l_100km="6.5"/>
+    <insurance period="year" currency="PLN">1800</insurance>
+    <range_km>600</range_km>
+    <maintenance>Regularne przeglądy i wymiana oleju</maintenance>
+  </means>
+  <means id="walking" category="on_foot" usage="daily">
+    <name>Nogi (chodzenie na piechotę)</name>
+    <speed unit="km/h">5</speed>
+    <distance_per_day unit="km">3</distance_per_day>
+    <cost currency="PLN">0</cost>
+    <health>Bardzo dobre dla kondycji i kręgosłupa</health>
+    <environment co2_g_km="0"/>
+  </means>
+</transport>
