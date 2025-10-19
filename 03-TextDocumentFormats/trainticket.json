@@ -1,0 +1,14 @@
+  {
+  "ticket_number": "PL-IC-9A7F3C21",
+  "passenger": { "first_name": "Jan", "last_name": "Kowalski" },
+  "origin": "Kraków Główny",
+  "destination": "Warszawa Centralna",
+  "travel_date": "2025-11-03",
+  "departure_time": "14:12",
+  "arrival_time": "16:46",
+  "train": { "operator": "PKP Intercity", "type": "EIP", "number": "EIP 5302" },
+  "seat": { "coach": 5, "seat": 18, "class": 2, "reservation": true },
+  "price": { "amount": 129.9, "currency": "PLN" },
+  "refundable": false,
+  "extras": ["Wi-Fi", "Gniazdko 230V", "Miejsce przy oknie"]
+  }
